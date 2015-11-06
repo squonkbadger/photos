@@ -1,0 +1,42 @@
+2015-11-05 19:47:01 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2015-11-05 19:48:39 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2015-11-05 19:48:44 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2015-11-05 19:58:48 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2015-11-05 20:09:31 Error: [Cake\Database\Exception\MissingExtensionException] Database driver Cake\Database\Driver\Mysql cannot be used due to a missing PHP extension or unmet dependency
+Exception Attributes: array (
+  'driver' => 'Cake\\Database\\Driver\\Mysql',
+)
+Stack Trace:
+#0 /home/badger/Documents/photos/vendor/cakephp/cakephp/src/Database/Connection.php(107): Cake\Database\Connection->driver('Cake\\Database\\D...', Array)
+#1 /home/badger/Documents/photos/vendor/cakephp/cakephp/src/Datasource/ConnectionRegistry.php(76): Cake\Database\Connection->__construct(Array)
+#2 /home/badger/Documents/photos/vendor/cakephp/cakephp/src/Core/ObjectRegistry.php(93): Cake\Datasource\ConnectionRegistry->_create('Cake\\Database\\C...', 'test', Array)
+#3 /home/badger/Documents/photos/vendor/cakephp/cakephp/src/Datasource/ConnectionManager.php(195): Cake\Core\ObjectRegistry->load('test', Array)
+#4 /home/badger/Documents/photos/vendor/cakephp/debug_kit/src/Panel/SqlLogPanel.php(48): Cake\Datasource\ConnectionManager::get('test')
+#5 /home/badger/Documents/photos/vendor/cakephp/debug_kit/src/Routing/Filter/DebugBarFilter.php(159): DebugKit\Panel\SqlLogPanel->initialize()
+#6 /home/badger/Documents/photos/vendor/cakephp/cakephp/src/Event/EventManager.php(389): DebugKit\Routing\Filter\DebugBarFilter->beforeDispatch(Object(Cake\Event\Event), Object(Cake\Network\Request), Object(Cake\Network\Response))
+#7 /home/badger/Documents/photos/vendor/cakephp/cakephp/src/Event/EventManager.php(355): Cake\Event\EventManager->_callListener(Array, Object(Cake\Event\Event))
+#8 /home/badger/Documents/photos/vendor/cakephp/cakephp/src/Event/EventDispatcherTrait.php(78): Cake\Event\EventManager->dispatch(Object(Cake\Event\Event))
+#9 /home/badger/Documents/photos/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(62): Cake\Routing\Dispatcher->dispatchEvent('Dispatcher.befo...', Array)
+#10 /home/badger/Documents/photos/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#11 {main}
+
+
+2015-11-05 20:09:31 Error: [Cake\Database\Exception\MissingExtensionException] Database driver Cake\Database\Driver\Mysql cannot be used due to a missing PHP extension or unmet dependency
+Exception Attributes: array (
+  'driver' => 'Cake\\Database\\Driver\\Mysql',
+)
+Stack Trace:
+#0 /home/badger/Documents/photos/vendor/cakephp/cakephp/src/Database/Connection.php(107): Cake\Database\Connection->driver('Cake\\Database\\D...', Array)
+#1 /home/badger/Documents/photos/vendor/cakephp/cakephp/src/Datasource/ConnectionRegistry.php(76): Cake\Database\Connection->__construct(Array)
+#2 /home/badger/Documents/photos/vendor/cakephp/cakephp/src/Core/ObjectRegistry.php(93): Cake\Datasource\ConnectionRegistry->_create('Cake\\Database\\C...', 'test', Array)
+#3 /home/badger/Documents/photos/vendor/cakephp/cakephp/src/Datasource/ConnectionManager.php(195): Cake\Core\ObjectRegistry->load('test', Array)
+#4 /home/badger/Documents/photos/vendor/cakephp/debug_kit/src/Panel/SqlLogPanel.php(48): Cake\Datasource\ConnectionManager::get('test')
+#5 /home/badger/Documents/photos/vendor/cakephp/debug_kit/src/Routing/Filter/DebugBarFilter.php(159): DebugKit\Panel\SqlLogPanel->initialize()
+#6 /home/badger/Documents/photos/vendor/cakephp/cakephp/src/Event/EventManager.php(389): DebugKit\Routing\Filter\DebugBarFilter->beforeDispatch(Object(Cake\Event\Event), Object(Cake\Network\Request), Object(Cake\Network\Response))
+#7 /home/badger/Documents/photos/vendor/cakephp/cakephp/src/Event/EventManager.php(355): Cake\Event\EventManager->_callListener(Array, Object(Cake\Event\Event))
+#8 /home/badger/Documents/photos/vendor/cakephp/cakephp/src/Event/EventDispatcherTrait.php(78): Cake\Event\EventManager->dispatch(Object(Cake\Event\Event))
+#9 /home/badger/Documents/photos/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(62): Cake\Routing\Dispatcher->dispatchEvent('Dispatcher.befo...', Array)
+#10 /home/badger/Documents/photos/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#11 {main}
+
+

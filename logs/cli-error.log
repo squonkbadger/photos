@@ -1,0 +1,100 @@
+2015-11-05 20:24:56 Error: [Cake\Database\Exception] Cannot describe photos. It has 0 columns.
+Stack Trace:
+#0 /home/badger/Documents/photos/vendor/cakephp/cakephp/src/Database/Schema/CachedCollection.php(64): Cake\Database\Schema\Collection->describe('photos', Array)
+#1 /home/badger/Documents/photos/vendor/cakephp/cakephp/src/ORM/Table.php(423): Cake\Database\Schema\CachedCollection->describe('photos')
+#2 /home/badger/Documents/photos/vendor/cakephp/cakephp/src/ORM/Table.php(499): Cake\ORM\Table->schema()
+#3 /home/badger/Documents/photos/vendor/cakephp/bake/src/Shell/Task/ModelTask.php(194): Cake\ORM\Table->primaryKey()
+#4 /home/badger/Documents/photos/vendor/cakephp/bake/src/Shell/Task/ModelTask.php(110): Bake\Shell\Task\ModelTask->getAssociations(Object(Cake\ORM\Table))
+#5 /home/badger/Documents/photos/vendor/cakephp/bake/src/Shell/Task/ModelTask.php(96): Bake\Shell\Task\ModelTask->bake('Photos')
+#6 /home/badger/Documents/photos/vendor/cakephp/bake/src/Shell/BakeShell.php(250): Bake\Shell\Task\ModelTask->main('Photos')
+#7 /home/badger/Documents/photos/vendor/cakephp/cakephp/src/Collection/CollectionTrait.php(51): Bake\Shell\BakeShell->Bake\Shell\{closure}('photos', 0)
+#8 /home/badger/Documents/photos/vendor/cakephp/bake/src/Shell/BakeShell.php(253): Cake\Collection\Collection->each(Object(Closure))
+#9 [internal function]: Bake\Shell\BakeShell->all('photos')
+#10 /home/badger/Documents/photos/vendor/cakephp/cakephp/src/Console/Shell.php(436): call_user_func_array(Array, Array)
+#11 /home/badger/Documents/photos/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(212): Cake\Console\Shell->runCommand(Array, true, Array)
+#12 /home/badger/Documents/photos/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(179): Cake\Console\ShellDispatcher->_dispatch(Array)
+#13 /home/badger/Documents/photos/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(126): Cake\Console\ShellDispatcher->dispatch(Array)
+#14 /home/badger/Documents/photos/bin/cake.php(33): Cake\Console\ShellDispatcher::run(Array)
+#15 {main}
+
+
+2015-11-05 20:32:59 Error: [Cake\Database\Exception] Cannot describe photos. It has 0 columns.
+Stack Trace:
+#0 /home/badger/Documents/photos/vendor/cakephp/cakephp/src/Database/Schema/CachedCollection.php(64): Cake\Database\Schema\Collection->describe('photos', Array)
+#1 /home/badger/Documents/photos/vendor/cakephp/cakephp/src/ORM/Table.php(423): Cake\Database\Schema\CachedCollection->describe('photos')
+#2 /home/badger/Documents/photos/vendor/cakephp/cakephp/src/ORM/Table.php(499): Cake\ORM\Table->schema()
+#3 /home/badger/Documents/photos/vendor/cakephp/bake/src/Shell/Task/ModelTask.php(194): Cake\ORM\Table->primaryKey()
+#4 /home/badger/Documents/photos/vendor/cakephp/bake/src/Shell/Task/ModelTask.php(110): Bake\Shell\Task\ModelTask->getAssociations(Object(Cake\ORM\Table))
+#5 /home/badger/Documents/photos/vendor/cakephp/bake/src/Shell/Task/ModelTask.php(96): Bake\Shell\Task\ModelTask->bake('Photos')
+#6 /home/badger/Documents/photos/vendor/cakephp/bake/src/Shell/BakeShell.php(250): Bake\Shell\Task\ModelTask->main('Photos')
+#7 /home/badger/Documents/photos/vendor/cakephp/cakephp/src/Collection/CollectionTrait.php(51): Bake\Shell\BakeShell->Bake\Shell\{closure}('photos', 0)
+#8 /home/badger/Documents/photos/vendor/cakephp/bake/src/Shell/BakeShell.php(253): Cake\Collection\Collection->each(Object(Closure))
+#9 [internal function]: Bake\Shell\BakeShell->all('photos')
+#10 /home/badger/Documents/photos/vendor/cakephp/cakephp/src/Console/Shell.php(436): call_user_func_array(Array, Array)
+#11 /home/badger/Documents/photos/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(212): Cake\Console\Shell->runCommand(Array, true, Array)
+#12 /home/badger/Documents/photos/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(179): Cake\Console\ShellDispatcher->_dispatch(Array)
+#13 /home/badger/Documents/photos/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(126): Cake\Console\ShellDispatcher->dispatch(Array)
+#14 /home/badger/Documents/photos/bin/cake.php(33): Cake\Console\ShellDispatcher::run(Array)
+#15 {main}
+
+
+2015-11-05 20:36:19 Error: [Cake\Database\Exception] Cannot describe photos. It has 0 columns.
+Stack Trace:
+#0 /home/badger/Documents/photos/vendor/cakephp/cakephp/src/Database/Schema/CachedCollection.php(64): Cake\Database\Schema\Collection->describe('photos', Array)
+#1 /home/badger/Documents/photos/vendor/cakephp/cakephp/src/ORM/Table.php(423): Cake\Database\Schema\CachedCollection->describe('photos')
+#2 /home/badger/Documents/photos/vendor/cakephp/cakephp/src/ORM/Table.php(499): Cake\ORM\Table->schema()
+#3 /home/badger/Documents/photos/vendor/cakephp/bake/src/Shell/Task/ModelTask.php(194): Cake\ORM\Table->primaryKey()
+#4 /home/badger/Documents/photos/vendor/cakephp/bake/src/Shell/Task/ModelTask.php(110): Bake\Shell\Task\ModelTask->getAssociations(Object(Cake\ORM\Table))
+#5 /home/badger/Documents/photos/vendor/cakephp/bake/src/Shell/Task/ModelTask.php(96): Bake\Shell\Task\ModelTask->bake('Photos')
+#6 /home/badger/Documents/photos/vendor/cakephp/bake/src/Shell/BakeShell.php(250): Bake\Shell\Task\ModelTask->main('Photos')
+#7 /home/badger/Documents/photos/vendor/cakephp/cakephp/src/Collection/CollectionTrait.php(51): Bake\Shell\BakeShell->Bake\Shell\{closure}('photos', 0)
+#8 /home/badger/Documents/photos/vendor/cakephp/bake/src/Shell/BakeShell.php(253): Cake\Collection\Collection->each(Object(Closure))
+#9 [internal function]: Bake\Shell\BakeShell->all('photos')
+#10 /home/badger/Documents/photos/vendor/cakephp/cakephp/src/Console/Shell.php(436): call_user_func_array(Array, Array)
+#11 /home/badger/Documents/photos/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(212): Cake\Console\Shell->runCommand(Array, true, Array)
+#12 /home/badger/Documents/photos/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(179): Cake\Console\ShellDispatcher->_dispatch(Array)
+#13 /home/badger/Documents/photos/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(126): Cake\Console\ShellDispatcher->dispatch(Array)
+#14 /home/badger/Documents/photos/bin/cake.php(33): Cake\Console\ShellDispatcher::run(Array)
+#15 {main}
+
+
+2015-11-05 20:36:38 Error: [Cake\Database\Exception] Cannot describe photos. It has 0 columns.
+Stack Trace:
+#0 /home/badger/Documents/photos/vendor/cakephp/cakephp/src/Database/Schema/CachedCollection.php(64): Cake\Database\Schema\Collection->describe('photos', Array)
+#1 /home/badger/Documents/photos/vendor/cakephp/cakephp/src/ORM/Table.php(423): Cake\Database\Schema\CachedCollection->describe('photos')
+#2 /home/badger/Documents/photos/vendor/cakephp/cakephp/src/ORM/Table.php(499): Cake\ORM\Table->schema()
+#3 /home/badger/Documents/photos/vendor/cakephp/bake/src/Shell/Task/ModelTask.php(194): Cake\ORM\Table->primaryKey()
+#4 /home/badger/Documents/photos/vendor/cakephp/bake/src/Shell/Task/ModelTask.php(110): Bake\Shell\Task\ModelTask->getAssociations(Object(Cake\ORM\Table))
+#5 /home/badger/Documents/photos/vendor/cakephp/bake/src/Shell/Task/ModelTask.php(96): Bake\Shell\Task\ModelTask->bake('Photos')
+#6 /home/badger/Documents/photos/vendor/cakephp/bake/src/Shell/BakeShell.php(250): Bake\Shell\Task\ModelTask->main('Photos')
+#7 /home/badger/Documents/photos/vendor/cakephp/cakephp/src/Collection/CollectionTrait.php(51): Bake\Shell\BakeShell->Bake\Shell\{closure}('photos', 0)
+#8 /home/badger/Documents/photos/vendor/cakephp/bake/src/Shell/BakeShell.php(253): Cake\Collection\Collection->each(Object(Closure))
+#9 [internal function]: Bake\Shell\BakeShell->all('photos')
+#10 /home/badger/Documents/photos/vendor/cakephp/cakephp/src/Console/Shell.php(436): call_user_func_array(Array, Array)
+#11 /home/badger/Documents/photos/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(212): Cake\Console\Shell->runCommand(Array, true, Array)
+#12 /home/badger/Documents/photos/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(179): Cake\Console\ShellDispatcher->_dispatch(Array)
+#13 /home/badger/Documents/photos/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(126): Cake\Console\ShellDispatcher->dispatch(Array)
+#14 /home/badger/Documents/photos/bin/cake.php(33): Cake\Console\ShellDispatcher::run(Array)
+#15 {main}
+
+
+2015-11-05 20:43:11 Error: [Cake\Database\Exception] Cannot describe photos. It has 0 columns.
+Stack Trace:
+#0 /home/badger/Documents/photos/vendor/cakephp/cakephp/src/Database/Schema/CachedCollection.php(64): Cake\Database\Schema\Collection->describe('photos', Array)
+#1 /home/badger/Documents/photos/vendor/cakephp/cakephp/src/ORM/Table.php(423): Cake\Database\Schema\CachedCollection->describe('photos')
+#2 /home/badger/Documents/photos/vendor/cakephp/cakephp/src/ORM/Table.php(499): Cake\ORM\Table->schema()
+#3 /home/badger/Documents/photos/vendor/cakephp/bake/src/Shell/Task/ModelTask.php(194): Cake\ORM\Table->primaryKey()
+#4 /home/badger/Documents/photos/vendor/cakephp/bake/src/Shell/Task/ModelTask.php(110): Bake\Shell\Task\ModelTask->getAssociations(Object(Cake\ORM\Table))
+#5 /home/badger/Documents/photos/vendor/cakephp/bake/src/Shell/Task/ModelTask.php(96): Bake\Shell\Task\ModelTask->bake('Photos')
+#6 /home/badger/Documents/photos/vendor/cakephp/bake/src/Shell/BakeShell.php(250): Bake\Shell\Task\ModelTask->main('Photos')
+#7 /home/badger/Documents/photos/vendor/cakephp/cakephp/src/Collection/CollectionTrait.php(51): Bake\Shell\BakeShell->Bake\Shell\{closure}('photos', 0)
+#8 /home/badger/Documents/photos/vendor/cakephp/bake/src/Shell/BakeShell.php(253): Cake\Collection\Collection->each(Object(Closure))
+#9 [internal function]: Bake\Shell\BakeShell->all('photos')
+#10 /home/badger/Documents/photos/vendor/cakephp/cakephp/src/Console/Shell.php(436): call_user_func_array(Array, Array)
+#11 /home/badger/Documents/photos/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(212): Cake\Console\Shell->runCommand(Array, true, Array)
+#12 /home/badger/Documents/photos/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(179): Cake\Console\ShellDispatcher->_dispatch(Array)
+#13 /home/badger/Documents/photos/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(126): Cake\Console\ShellDispatcher->dispatch(Array)
+#14 /home/badger/Documents/photos/bin/cake.php(33): Cake\Console\ShellDispatcher::run(Array)
+#15 {main}
+
+
